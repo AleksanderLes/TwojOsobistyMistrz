@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <title>Twój osobisty mistrz</title>
+    <link rel="preload" href="fonts/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/OpenSans-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/OpenSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/playfairdisplay-black.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body class="page__body">
+    <div class="site-container">
+        <header class="header">
+            <div class="container header__container ">
+
+                <div class="header__content flex">
+                    <button class=" header__burger burger btn-resert" title="Кнопка вызова главного меню">
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                    </button>
+                    <a class=" header__logo">
+                        <img loading="lazy" class="logo" src="images/logo.png" alt="Логотип" width="190" height="31">
+                    </a>
+                    <nav class=" header__nav nav flex" title="Главная навигация">
+                        <ul class="nav__list list-reset flex">
+                            <li class="nav__item">
+                                <a href="#about" class="nav__link">О нас</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#bags" class="nav__link">Сумки</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#breloks" class="nav__link">Брелки и смычи</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#contacts" class="nav__link">Ремни</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#contacts" class="nav__link">Эксклюзивные изделия</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#footer" class="nav__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </header>
+
+
+        <main class="main">
+            <section class="hero">
+                <h1 class="visually-hidden">Twój osobisty mistrz — изготовление кожаный изделий</h1>
+
+                <div class="swiper-container hero__swiper">
+                    <!-- враппер -->
+                    <div class="swiper-wrapper">
+                        <!-- слайды -->
+                        <div class="swiper-slide ">
+                            <div class="hero__slide slide1">
+                                <div class="container hero__container">
+                                    <p class="hero__descr">
+                                        Скидка&nbsp;15% на&nbsp;первую покупку
+                                    </p>
+                                    <a href="#" class="btn hero__btn btn-reset " tabindex="0">
+                                        Получить!
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="hero__slide slide2">
+                                <div class="container hero__container">
+                                    <p class="hero__descr">
+                                        1000+ аксессуаров
+                                    </p>
+                                    <a href="#" class="btn hero__btn btn-reset " tabindex="0">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="hero__slide slide3">
+                                <div class="container hero__container">
+                                    <p class="hero__descr">
+                                        Скидка&nbsp;15% на&nbsp;первую покупку
+                                    </p>
+                                    <a href="#" class="btn hero__btn btn-reset " tabindex="0">
+                                        Получить!
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="hero__pagination"></div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="container about__container">
+                    <h2 class="section-title about__title"> О нас</h2>
+
+                    <p class="about__descr">
+                        Мы молодая развивающаяся спулка.... <br> Производим замечательные изделия из натуральной кожи.. <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus explicabo minima, natus recusandae in eligendi animi? Saepe
+                        fugit deleniti eaque nihil reprehenderit, ratione architecto earum, consequatur pariatur dignissimos corporis placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio neque sunt ex voluptatem veniam atque culpa illum
+                        optio reiciendis obcaecati doloribus distinctio placeat illo eos quasi, aliquid corporis. Aperiam, dolorem!
+                    </p>
+
+                </div>
+            </section>
+
+            <section class="bags" id="bags">
+                <div class="container bags__container">
+                    <h2 class="section-title bags__title"> Сумки</h2>
+
+                    <p class="bags__descr">
+                        Сумки ручной работы, из натуральной кожи ...
+                    </p>
+                    <ul class="list-reset bags__list ">
+                        <li class="bags__item card flex">
+                            <img class="card__img" loading="lazy" src="images/bag/bag-1.jpg" width="300" height="250" alt="Фотография сумки">
+                            <div class="card__content flex">
+                                <h3 class="card__title">Bag espa&ntilde;ola</h3>
+                                <p class="card__descr">Черная, Кожа</p>
+                                <span class="card__price">от 1599&nbsp;zł</span>
+                                <button class="btn-reset btn card__btn">Купить</button>
+                            </div>
+                        </li>
+                        <li class="bags__item card flex">
+                            <img class="card__img" loading="lazy" src="images/bag/bag-1.jpg" width="300" height="250" alt="Фотография сумки">
+                            <div class="card__content flex">
+                                <h3 class="card__title">Bag espa&ntilde;ola</h3>
+                                <p class="card__descr">Черная, Кожа</p>
+                                <span class="card__price">от 1599&nbsp;zł</span>
+                                <button class="btn-reset btn card__btn">Купить</button>
+                            </div>
+                        </li>
+                        <li class="bags__item card flex">
+                            <img class="card__img" loading="lazy" src="images/bag/bag-1.jpg" width="300" height="250" alt="Фотография сумки">
+                            <div class="card__content flex">
+                                <h3 class="card__title">Bag espa&ntilde;ola</h3>
+                                <p class="card__descr">Черная, Кожа</p>
+                                <span class="card__price">от 1599&nbsp;zł</span>
+                                <button class="btn-reset btn card__btn">Купить</button>
+                            </div>
+                        </li>
+                        <li class="bags__item card flex">
+                            <img class="card__img" loading="lazy" src="images/bag/bag-1.jpg" width="300" height="250" alt="Фотография сумки">
+                            <div class="card__content flex">
+                                <h3 class="card__title">Bag espa&ntilde;ola</h3>
+                                <p class="card__descr">Черная, Кожа</p>
+                                <span class="card__price">от 1599&nbsp;zł</span>
+                                <button class="btn-reset btn card__btn">Купить</button>
+                            </div>
+                        </li>
+
+                        <li class="bags__item  card card--last flex">
+
+                            <a href="#" class="card__link flex">Посмотреть все варианты
+                                </a>
+
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <section class="breloks" id="breloks">
+                <div class="container breloks__container">
+                    <h2 class="section-title breloks__title">Брелки и смычи</h2>
+
+                    <p class="breloks__descr">
+                        Брелки и смычи ручной работы, из натуральной кожи ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nesciunt excepturi id quidem nisi in quaerat earum dolore perferendis cum. Laborum atque saepe odit, pariatur ipsum necessitatibus aperiam
+                        perspiciatis minima.
+                    </p>
+
+                    <ul class="list-reset breloks__list ">
+                        <li class="breloks__item card flex">
+                            <img class="card__img" loading="lazy" src="images/breloks/br-0.jpg" width="300" height="250" alt="Фотография сумки">
+                            <div class="card__content flex">
+                                <h3 class="card__title">Brelok BR-1</h3>
+                                <p class="card__descr">Черная, Кожа</p>
+                                <span class="card__price">от 99&nbsp;zł</span>
+                                <button class="btn-reset btn card__btn">Купить</button>
+                            </div>
+                        </li>
+                        <li class="breloks__item card flex">
+                            <img class="card__img" loading="lazy" src="images/breloks/br-0.jpg" width="300" height="250" alt="Фотография сумки">
+                            <div class="card__content flex">
+                                <h3 class="card__title">Brelok BR-1</h3>
+                                <p class="card__descr">Черная, Кожа</p>
+                                <span class="card__price">от 99&nbsp;zł</span>
+                                <button class="btn-reset btn card__btn">Купить</button>
+                            </div>
+                        </li>
+                        <li class="breloks__item card flex">
+                            <img class="card__img" loading="lazy" src="images/breloks/br-0.jpg" width="300" height="250" alt="Фотография сумки">
+                            <div class="card__content flex">
+                                <h3 class="card__title">Brelok BR-1</h3>
+                                <p class="card__descr">Черная, Кожа</p>
+                                <span class="card__price">от 99&nbsp;zł</span>
+                                <button class="btn-reset btn card__btn">Купить</button>
+                            </div>
+                        </li>
+                        <li class="breloks__item card flex">
+                            <img class="card__img" loading="lazy" src="images/breloks/br-0.jpg" width="300" height="250" alt="Фотография сумки">
+                            <div class="card__content flex">
+                                <h3 class="card__title">Brelok BR-1</h3>
+                                <p class="card__descr">Черная, Кожа</p>
+                                <span class="card__price">от 99&nbsp;zł</span>
+                                <button class="btn-reset btn card__btn">Купить</button>
+                            </div>
+                        </li>
+
+                        <li class="breloks__item  card card--last flex">
+
+                            <a href="#" class="card__link flex">Посмотреть все варианты
+                                </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <section class="exclusive"></section>
+
+
+        </main>
+
+        <footer class="footer" id="footer">
+            <div class="container footer__container flex">
+
+                <div class="footer__left flex">
+                    <h2 class="footer__title section-title">Twoj osobisty mistrz</h2>
+                    <p class="footer__descr">
+                        Представленная на&nbsp;сайте информация носит справочный характер и&nbsp;не&nbsp;является публичной офертой
+                    </p>
+                    <a href="#" class="footer__link">
+                          Пользовательское соглашение
+                    </a>
+                </div>
+
+                <address class="footer__center flex">
+                     
+                    <p class="footer__descr">
+                        81-103,Gdynia, Lubelska 5/2
+                    </p>
+                                      
+                    <a href="tel:+48696278476" class="tel footer__tel">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.3425 14.0983C17.215 14.0983 16.1242 13.915 15.1067 13.585C14.7858 13.475 14.4283 13.5575 14.1808 13.805L12.7417 15.6108C10.1475 14.3733 7.71833 12.0358 6.42583 9.35L8.21333 7.82833C8.46083 7.57167 8.53417 7.21417 8.43333 6.89333C8.09417 5.87583 7.92 4.785 7.92 3.6575C7.92 3.1625 7.5075 2.75 7.0125 2.75H3.84083C3.34583 2.75 2.75 2.97 2.75 3.6575C2.75 12.1733 9.83583 19.25 18.3425 19.25C18.9933 19.25 19.25 18.6725 19.25 18.1683V15.0058C19.25 14.5108 18.8375 14.0983 18.3425 14.0983Z" />
+                        </svg> +48 696 278 476
+                    </a>
+                    <a href="mailto:ykate1984@gmail.com" class="tel ">
+                        ykate1984@gmail.com
+                    </a>
+                                   
+                </address>
+
+
+
+
+                <ul class="footer__list list-reset flex">
+
+                    <li class="footer__item">
+                        <a href="#" class="footer__social-link">
+                            <svg class="social-icon" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M12.5 0C5.59815 0 0 5.59815 0 12.5C0 19.4018 5.59815 25 12.5 25C19.4018 25 25 19.4018 25 12.5C25 5.59815 19.4018 0 12.5 0ZM20.0409 9.15132C20.0409 9.30469 20.0409 9.45807 20.0409 9.58588C20.0409 14.9284 15.9765 20.4499 9.17688 20.4499C7.10633 20.4499 5.08691 19.8619 3.3231 18.7372C3.29754 18.7116 3.27198 18.6605 3.29754 18.635C3.3231 18.5838 3.34867 18.5583 3.39979 18.5838C3.68098 18.6094 3.98773 18.635 4.29447 18.635C5.9049 18.635 7.43864 18.1237 8.74232 17.1779C7.18302 17.0501 5.85378 16.002 5.36809 14.4939C5.36809 14.4683 5.36809 14.4172 5.39366 14.3916C5.41922 14.366 5.44478 14.366 5.47034 14.366C5.9049 14.4427 6.33946 14.4427 6.74846 14.3916C5.13803 13.9059 4.01329 12.3977 4.01329 10.6851V10.6339C4.01329 10.6084 4.03885 10.5828 4.06441 10.5572C4.08998 10.5317 4.11554 10.5317 4.16666 10.5572C4.57566 10.7873 5.03578 10.9407 5.52147 10.9918C4.60122 10.2505 4.06441 9.15132 4.06441 7.94989C4.06441 7.25971 4.24335 6.59509 4.60122 6.00715C4.62678 5.98159 4.65235 5.95603 4.67791 5.95603C4.70347 5.95603 4.72903 5.95603 4.7546 5.98159C6.64621 8.2822 9.40694 9.71369 12.3722 9.89263C12.3211 9.637 12.2955 9.38138 12.2955 9.12576C12.2955 6.97852 14.0337 5.24028 16.181 5.24028C17.229 5.24028 18.2515 5.67484 18.9673 6.41615C19.7853 6.23721 20.5777 5.95603 21.2934 5.52147C21.319 5.4959 21.3701 5.4959 21.3957 5.52147C21.4212 5.54703 21.4468 5.59815 21.4212 5.62372C21.1656 6.39059 20.7055 7.05521 20.0664 7.54089C20.6799 7.43864 21.2679 7.25971 21.8047 7.00408C21.8302 6.97852 21.8814 7.00408 21.9069 7.02964C21.9325 7.05521 21.9325 7.10633 21.9069 7.13189C21.4212 7.97545 20.7822 8.61451 20.0409 9.15132Z"/>
+                                </svg>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__social-link">
+                            <svg class="social-icon" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <g clip-path="url(#clip0_96182_11)">
+                                  <path d="M12.5 0C5.59815 0 0 5.59815 0 12.5C0 19.4018 5.59815 25 12.5 25C19.4018 25 25 19.4018 25 12.5C25 5.59815 19.4018 0 12.5 0ZM17.2546 6.36502H15.5163C14.1615 6.36502 13.9059 7.00408 13.9059 7.94989V10.0204H17.1268V13.2924H13.9059V21.6769H10.5572V13.2924H7.74539V10.046H10.5572V7.64314C10.5572 4.85685 12.2699 3.3231 14.7495 3.3231H17.2801L17.2546 6.36502Z" />
+                                  </g>
+                                  <defs>
+                                  <clipPath id="clip0_96182_11">
+                                  <rect width="25" height="25" fill="white"/>
+                                  </clipPath>
+                                  </defs>
+                                </svg>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__social-link">
+                            <svg class="social-icon" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <g clip-path="url(#clip0_96182_14)">
+                                  <path d="M12.5 0C5.59815 0 0 5.59815 0 12.5C0 19.4018 5.59815 25 12.5 25C19.4018 25 25 19.4018 25 12.5C25 5.59815 19.4018 0 12.5 0ZM18.8394 13.8548C19.4274 14.4172 20.0409 14.954 20.5521 15.593C20.7822 15.8742 21.0122 16.1554 21.1656 16.4877C21.3957 16.9478 21.1912 17.4591 20.7822 17.4846H18.226C17.5613 17.5358 17.0501 17.2801 16.59 16.82C16.2321 16.4622 15.8998 16.0787 15.5675 15.6953C15.4397 15.5419 15.2863 15.3885 15.1073 15.2863C14.7495 15.0562 14.4427 15.1329 14.2638 15.4908C14.0593 15.8742 14.0082 16.2832 13.9826 16.6922C13.957 17.3057 13.7781 17.4591 13.1646 17.4846C11.8609 17.5358 10.6339 17.3568 9.50919 16.6922C8.51226 16.1043 7.71983 15.3118 7.05521 14.3916C5.72597 12.6022 4.72903 10.6339 3.80879 8.61451C3.60429 8.15439 3.75767 7.92433 4.26891 7.89876C5.11247 7.8732 5.93046 7.8732 6.77402 7.89876C7.10633 7.89876 7.33639 8.10326 7.46421 8.41001C7.92433 9.50919 8.46114 10.5828 9.15132 11.5542C9.33026 11.8098 9.53475 12.0654 9.79038 12.2699C10.0971 12.4744 10.3016 12.3977 10.455 12.0654C10.5317 11.8609 10.5828 11.6309 10.6084 11.4008C10.6851 10.6339 10.6851 9.86707 10.5572 9.10019C10.4806 8.58895 10.2249 8.2822 9.73925 8.17995C9.48363 8.12883 9.53476 8.05214 9.637 7.89876C9.8415 7.6687 10.046 7.51533 10.4294 7.51533H13.318C13.7781 7.61758 13.8804 7.79652 13.9315 8.25664V11.4775C13.9315 11.6564 14.0082 12.1932 14.3405 12.2955C14.5961 12.3722 14.775 12.1677 14.9284 12.0143C15.6186 11.273 16.1043 10.4039 16.5644 9.50919C16.7689 9.10019 16.9223 8.6912 17.1012 8.2822C17.229 7.97545 17.408 7.82208 17.7658 7.82208H20.5521C20.6288 7.82208 20.7055 7.82208 20.8078 7.84764C21.2679 7.92433 21.3957 8.12883 21.2679 8.58895C21.0378 9.30469 20.6033 9.91819 20.1687 10.5061C19.7086 11.1452 19.1973 11.7587 18.7372 12.4233C18.2771 13.0368 18.3026 13.3435 18.8394 13.8548Z"/>
+                                  </g>
+                                  <defs>
+                                  <clipPath id="clip0_96182_14">
+                                  <rect width="25" height="25" fill="white"/>
+                                  </clipPath>
+                                  </defs>
+                                </svg>
+                        </a>
+                    </li>
+
+                </ul>
+
+
+
+            </div>
+
+        </footer>
+    </div>
+
+    <!-- <script src="vendor.js"></script>-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./vendor/just-validate.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+
+</html>
