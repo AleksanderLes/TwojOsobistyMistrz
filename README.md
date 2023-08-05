@@ -1,3 +1,3 @@
 # TwojOsobistyMistrz
 DlaKati
-- You can view it [here](https://aleksanderles.github.io/kurses_3D/)
+- You can view it [here](https://aleksanderles.github.io/TwojOsobistyMistrz/)
